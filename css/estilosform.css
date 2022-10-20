@@ -4,7 +4,7 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-	background: #E5E5E5;
+	background: #E0E4E5;
 }
 
 main {
@@ -113,8 +113,8 @@ main {
 	height: 45px;
 	line-height: 45px;
 	width: 30%;
-	background: #000;
-	color: #fff;
+	background: #E84C3D;
+	color: rgb(255, 253, 253);
 	font-weight: bold;
 	border: none;
 	border-radius: 3px;
