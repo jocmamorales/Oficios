@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contactanos</title>
+  <link rel="stylesheet" href="estilo-form-contacto.css">
+</head>  
+
+<body>
+  
+
+  <form class="my-form">
+    <div class="container">
+      <h1>Contactanos</h1>
+      <ul>
+        <li> 
+        <!-- Elemento de selección de motivo de contacto -->
+          <select>
+            <option selected disabled>-- Asunto --</option>
+            <option>Solicitud</option>
+            <option>Reclamo</option>
+            <option>Comentario</option>
+          </select>
+        </li>
+        <li>
+          <!-- Campos de entrada obligatorios -->
+          <div class="grid grid-2">
+            <input type="text" placeholder="Nombre" required>
+            <input type="text" placeholder="Apellido" required>
+          </div>
+        </li>
+        <li>
+          <!-- Datos de contacto, mail obligatorio y teléfono opcional -->
+          <div class="grid grid-2">
+            <input type="email" placeholder="Correo electrónico" required>
+            <input type="tel" placeholder="Teléfono">
+          </div>
+        </li>
+        <!-- Área para escribir el mensaje -->
+        <li><textarea placeholder="Mensaje" required></textarea></li>
+        <!-- Casilla de verificación con términos y condiciones
+        <li><input type="checkbox" id="terms"> 
+          <label for="terms">...</label>
+        </li> -->
+        <li> 
+          <!-- Botones de enviar y restablecer formulario -->
+          <div class="grid grid-3">
+            <!-- <div class="required-msg">Campo obligatorio</div>
+            <br> -->
+            <button class="btn-grid" type="submit" disabled>
+              <span class="back">
+                <img src="IMG_SRC" alt="">
+              </span>
+              <span class="front">ENVIAR</span>
+            </button>
+            <button class="btn-grid" type="reset" disabled>
+              <span class="back">
+                <img src="IMG_SRC" alt="">
+              </span>
+              <span class="front">LIMPIAR</span>
+            </button>
+          </div>
+
+        </li>
+      </ul>
+    </div>
+  </form>
+
+
+</body>
+
+</html>
