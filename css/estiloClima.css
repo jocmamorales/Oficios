@@ -1,0 +1,25 @@
+/*Api de https://openweathermap.org/ */
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#caja1, #caja2{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 15%;
+    width: 200px;
+    height: 200px;
+}
+
+#caja1 {
+    /* background-color: rgba(0,0,0,0.767); */
+    color:rgb(255, 249, 249);    
+}
+#caja2 {
+    /* background-color: darkslateblue; */
+    color:rgb(235, 229, 229);    
+}
