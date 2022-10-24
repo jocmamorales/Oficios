@@ -26,7 +26,7 @@ $(document).ready(function(){
 		} setTimeout(mostrarProfesional,400);
 	});
 
-	// MOSTRANDO TODOS LOS PRODUCTOS =======================
+	// MOSTRANDO TODOS LOS PROFESIONALES =======================
 
 	$('.rubro_item[rubro="all"]').click(function(){
 		function mostrarTodos(){
