@@ -1,25 +1,54 @@
 /*Api de https://openweathermap.org/ */
 * {
-    
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-#caja1, #caja2{
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    padding-top: 15%;
-    width: 200px;
-    height: 200px;
+.nav__logo {
+    display: grid;
+    grid-template-areas:
+        "caja1 caja2";
+    align-items: center;
+
+}
+
+.nav__link_nav__link--menu {
+
+    /* height: auto; */
+    width: 100%;
+    padding-block: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-content: center;
+
+
+}
+
+.li {
+    text-align: middle;
+    padding: 10%;
+
+}
+
+#caja1 #caja2 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+
 }
 
 #caja1 {
-    /* background-color: rgba(0,0,0,0.767); */
-    color:rgb(255, 249, 249);    
+    background-color: rgba(0, 0, 0, 0.767);
+    color: rgb(255, 249, 249);
+
 }
+
 #caja2 {
-    /* background-color: darkslateblue; */
-    color:rgb(235, 229, 229);    
+    background-color: darkslateblue;
+    color: rgb(235, 229, 229);
 }

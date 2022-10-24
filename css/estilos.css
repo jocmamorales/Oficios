@@ -48,8 +48,11 @@ body {
 .nav {
     --padding-container: 0;
     height: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
     align-items: center;
+    vertical-align: middle;
+    
 }
 
 .nav__title {
@@ -58,11 +61,13 @@ body {
 
 .nav__link {
     margin-left: auto;
-    padding: 0;
+    padding: 2rem;
     display: grid;
-    grid-auto-flow: column;
+   grid-auto-flow: column;
     grid-auto-columns: max-content;
-    gap: 2em;
+    justify-content: center;
+    align-content: center;
+    gap: 1em;
 }
 
 .nav__items {
@@ -83,6 +88,7 @@ body {
 .nav__img {
     display: block;
     width: 30px;
+    
 }
 
 
@@ -99,6 +105,7 @@ body {
     display: grid;
     grid-auto-rows: max-content;
     align-content: center;
+    justify-content: center;
     gap: 1em;
     padding-bottom: 100px;
     text-align: center;
@@ -432,7 +439,7 @@ body {
 
 .footer__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     border-bottom: 1px solid #fff;
     padding-bottom: 60px;
@@ -441,8 +448,10 @@ body {
 .nav--footer {
     padding-bottom: 20px;
     display: grid;
-    gap: 1em;
+    gap: 3em;
     grid-auto-flow: row;
+    justify-items: center;
+    align-items: center;
     height: 100%;
 }
 
@@ -507,6 +516,7 @@ body {
 @media (max-width:800px) {
     .nav__menu {
         display: block;
+        
     }
 
     .nav__link--menu {
@@ -553,7 +563,7 @@ body {
         grid-column: 1/-1;
     }
 
-
+}
 
     @media (max-width:600px) {
         .hero__title {
@@ -599,3 +609,15 @@ body {
 
         }
     }
+    .Logo, .Logo-sup {
+        padding-top: 0%;
+        padding-bottom: 0px;
+        display: grid;
+        gap: 3em;
+        grid-auto-flow: column;
+        justify-items: center;
+        align-items: center;
+        height: 100%;
+        background-color: #696871;
+    }
+    
