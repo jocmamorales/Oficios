@@ -17,13 +17,23 @@
 <body>
 	<header class="hero">
 		<nav class="nav container">
+			<div class="nav__logo">
+				<!--Clima temperatura y ubicacion geografica por Api https://openweathermap.org/api -->
 
-			<img class="Logo-sup" src="images/LogoRecomendame-sinfondo.png"
-				alt="Una casa con parlantes recomendando esta página">
+				<div id="caja1">
+					<h1 id="temperatura-valor"></h1>
+					<h1 id="temperatura-descripcion"></h1>
+				</div>
+				<div id="caja2">
+					<h2 id="ubicacion"></h2>
+					<img id="icono-animado" src="" alt="Animacion clima" height="80" width="80">
+				</div>
 
-			<ul class="nav__link_nav__link--menu">
+			</div>
+
+			<ul class="nav__link nav__link--menu">
 				<li class="nav__items">
-					<a href="#" class="nav__links">Inicio...</a>
+					<a href="#" class="nav__links">Inicio</a>
 				</li>
 				<li class="nav__items">
 					<a href="Profesionales.html" class="nav__links">Profesionales</a>
@@ -32,35 +42,14 @@
 					<a href="formulario.html" class="nav__links">Sumate como profesional</a>
 				</li>
 				<li class="nav__items">
-					<a href="Contactanos.html" class="nav__links">Contactanos</a>
+					<a href="condiciones.html" class="nav__links">Contactanos</a>
 				</li>
 
 			</ul>
-			<div class="nav__logo">
-
-
-				<!--Clima temperatura y ubicacion geografica por Api https://openweathermap.org/api -->
-
-
-				<div class="item caja1">
-					<p id="temperatura-valor"></p>
-					<p id="temperatura-descripcion"></p>
-				</div>
-				<div class="item caja2">
-					<img id="icono-animado" src="" alt="Animacion clima" height="100%" width="100%">
-					<h5 id="ubicacion"></h5>
-
-				</div>
-
-			</div>
-
-			</div>
 
 		</nav>
 
-
 		<section class="hero__container container">
-
 			<h1 class="hero__title">¿Qué servicio necesitás <br> para tu casa?</h1>
 			<p class="hero__paragraph">¡Aquí, en RECOMENDAME, lo podés encontrar!</p>
 			<a href="Profesionales.html" class="cta">BUSCO UN PROFESIONAL</a>
@@ -72,18 +61,16 @@
 	<section class="footer__container container">
 		<nav class="nav nav--footer">
 			<h2 class="footer__title">Recomendame</h2>
-			<img class="Logo" src="images/LogoRecomendame-GRIS.png"
-				alt="Una casa con parlantes recomendando esta página">
 
 			<ul class="nav__link nav__link--footer">
 				<li class="nav__items">
-					<a href="index.html" class="nav__links">Inicio ...</a>
+					<a href="index.html" class="nav__links">Inicio</a>
 				</li>
 				<li class="nav__items">
 					<a href="Profesionales.html" class="nav__links">Profesionales</a>
 				</li>
 				<li class="nav__items">
-					<a href="formulario.html" class="nav__links">Sumate como profesional</a>
+					<a href="formulario.html" class="nav__links">Sumate a nuestro Staf</a>
 				</li>
 				<li class="nav__items">
 					<a href="Contactanos.html" class="nav__links">Contactanos</a>
@@ -109,7 +96,7 @@
 		</div>
 
 
-		<h3 class="footer__copyright">Derechos reservados &copy; Recomendame </h3>
+		<h3 class="footer__copyright">Derechos reservados &copy; Recomendame</h3>
 	</section>
 </footer>
 
